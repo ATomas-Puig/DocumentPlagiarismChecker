@@ -61,7 +61,7 @@ namespace DocumentPlagiarismChecker.Comparators.ParagraphWordCounter
         }
 
         /// <summary>
-        /// Compares the sample with the given file and exclude the paragraphs that produces a false positive match between the sample an the document.
+        /// Compareu la mostra amb el fitxer donat i excloeu els paràgrafs que produeixen una falsa coincidència positiva entre la mostra i el document.
         /// </summary>
         private void ExcludeSampleExactMatches(){
             if(this.Sample == null) return;
@@ -84,7 +84,7 @@ namespace DocumentPlagiarismChecker.Comparators.ParagraphWordCounter
         }
 
         /// <summary>
-        /// Counts how many words and how many times appears within each paragraph, comparing them between each other in order to score a matching percentage.
+        /// Compta quantes paraules i quantes vegades apareixen dins de cada paràgraf, comparant-les entre si per obtenir un percentatge coincident.
         /// </summary>
         /// <param name="paragraphsLeft">A left-side set of paragraphs as a collection of pair-values following the schema (text, (word, count)).</param>
         /// <param name="paragraphsRight">A right-side set of paragraphs as a collection of pair-values following the schema (text, (word, count)).</param>
