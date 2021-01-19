@@ -98,6 +98,7 @@ namespace DocumentPlagiarismChecker
         public void WriteOutput(){
             //TODO: must be selected by settings
             TerminalEjercicio t = new TerminalEjercicio(this.Settings);
+            Hola.quetal.esto.es.unaprueba
             t.Write(this.MatchingResults);
         }
 
